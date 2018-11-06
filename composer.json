@@ -1,0 +1,35 @@
+{
+  "name": "mrcnpdlk/lank3-api",
+  "description": "Lankontroler v3",
+  "keywords": [
+    "Lankontroler",
+    "ATS"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Pudełek",
+      "email": "marcin@pudelek.org.pl",
+      "role": "Owner"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ext-snmp": "*",
+    "php-curl-class/php-curl-class": "~8.3.2",
+    "mrcnpdlk/snmp": "~0.1.0"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "mrcnpdlk\\Lib\\Lank3\\": "src/"
+    }
+  }
+}
