@@ -18,7 +18,10 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.2",
-    "ext-json": "*"
+    "ext-json": "*",
+    "ext-snmp": "*",
+    "php-curl-class/php-curl-class": "~8.3.2",
+    "mrcnpdlk/snmp": "~0.1.0"
   },
   "require-dev": {
   },
