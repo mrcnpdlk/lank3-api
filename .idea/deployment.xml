@@ -51,6 +51,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="OMV (project level)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/lank3-api" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="VOD.51">
         <serverdata>
           <mappings>
